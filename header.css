@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1932");
+
+}
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    margin-bottom: 8px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding:0 20px;
+    font-size: large;
+}
+.search{
+    width: 320px;
+    margin:0 30px;
+}
+.btn{
+    margin-left: 60px;
+    margin-right: 6px;
+}
+nav img{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+
+button{
+    background-color: blue;
+    color: azure;
+}
+footer{
+    background-color: black;
+    height: 40px;
+    font-size: larger;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and ( max-width:800px){
+    .header{background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 4px;
+    overflow: scroll;
+    }
+    header nav a{
+    color: white;
+    text-decoration: none;
+    padding:0 6px;
+    }
+    .search{
+    width: 300px;
+    margin:0 10px;
+    }
+    .btn{
+    margin-left: 10px;
+    margin-right: 4px;
+    }
+    nav img{
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    }
+}
